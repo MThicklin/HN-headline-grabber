@@ -32,11 +32,11 @@ content += ('<br><br>End of Message')
 
 print('Composing Email...')
 
-SERVER = 'smtp.gmail.com'
-PORT = 587
-TO = 'melvinhicklin@gmail.com'
-FROM = 'phonefarmhicklin@gmail.com'
-PASS = '3ER53q95TH&N5X88m7!d'
+SERVER = settings.server
+PORT = settings.port
+TO = settings.to
+FROM = settings.from
+PASS = settings.pass
 
 # fp = open(file_name, 'rb')
 # msg = MIMEText('')
