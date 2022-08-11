@@ -5,6 +5,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import datetime
 from sys import argv
+import settings
 
 now = datetime.datetime.now()
 
