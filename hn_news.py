@@ -35,9 +35,9 @@ print('Composing Email...')
 
 SERVER = settings.server
 PORT = settings.port
-TO = settings.to
-FROM = settings.from
-PASS = settings.pass
+TO = settings.toEmail
+FROM = settings.fromEmail
+PASS = settings.Password
 
 # fp = open(file_name, 'rb')
 # msg = MIMEText('')
