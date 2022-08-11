@@ -1,5 +1,5 @@
-SERVER = 'smtp.gmail.com'
-PORT = 587
-TO = WhereTheEmailIsGoing
-FROM = WhereTheEmailIsComingFrom
-PASS = PasswordToTheFromEmail
+server = 'smtp.gmail.com'
+port = 587
+toEmail = WhereTheEmailIsGoing
+fromEmail = WhereTheEmailIsComingFrom
+password = PasswordToTheFromEmail
